@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<header>
+    <nav class="top-navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <div>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="main-container">
+
+        <aside class="aside-navbar">
+            <ul>
+                <li>
+                    <input type="checkbox" name="" id="home_aside" onclick="accordion(this)">
+                    <label for="home_aside">Home</label>
+                </li>
+                <div class="collapse" id="home_aside-collapse">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+            </ul>
+            <ul>
+
+            </ul>
+                <li>
+                    <input type="checkbox" name="" id="other_aside" onclick="accordion(this)">
+                    <label for="other_aside">Home</label>
+                </li>
+                <div class="collapse" id="other_aside-collapse">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+            </ul>
+        </aside>
+
+        <main>
+            <div>
+                <h1>Main</h1>
+                <p>Content</p>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-navbar > ul, .top-navbar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+}
+
+.top-navbar li {
+    list-style: none;
+}
+
+.top-navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.1s ease;
+    border-radius: 5px;
+}
+
+.top-navbar a:hover {
+    color: rgb(255, 0, 0);
+    background-color: #444;
+    font-weight: bold;
+}
+
+.main-container {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #9c7676;
+}
+
+.aside-navbar {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 0 1rem;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.aside-navbar input[type="checkbox"] {
+    display: none;
+}
+
+.aside-navbar li {
+    list-style: none;
+}
+
+.aside-navbar label {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.1s ease;
+    border-radius: 5px;
+}
+
+.aside-navbar label:hover {
+    color: red;
+    background-color: #444;
+
+}
+
+.aside-navbar a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px;
+    transition: all 0.1s ease;
+    border-radius: 5px;
+}
+
+.aside-navbar a:hover {
+    color: rgb(255, 0, 0);
+    background-color: #444;
+    font-weight: bold;
+}
+
+.aside-navbar div {
+    padding-left: 1rem;
+}
+.collapse {
+    display: none;
+}
+
+main {
+    width: 80%;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #eee;
+}
+
+main > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+    margin-top: 10px; 
+}
