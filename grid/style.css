@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body > div {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside content"
+    "footer footer";    
+    gap: 10px;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 45px 1fr 45px;
+}
+
+div > header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+div > aside {
+    grid-area: aside;
+    background-color: blueviolet;
+}
+
+div > main {
+    grid-area: content;
+    background-color: brown;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(28, 28, 28); 
+}
+
+
